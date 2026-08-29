@@ -135,8 +135,6 @@ This filter is specifically designed for biomedical applications targeting very 
 - **Texas Instruments** for providing LM324 SPICE models
 - **Department of Electronics & Communication Engineering, Jamia Millia Islamia** for academic support
 
-## 📄 License
-This project is open-source under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 **Tooba Imtiyaz**  
