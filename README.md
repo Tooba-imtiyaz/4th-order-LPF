@@ -21,17 +21,14 @@ This project implements a 4th-order active low-pass filter using the Sallen-Key 
 
 ## 🔬 Simulation Results
 ### Frequency Response (Bode Plot)
-[View Bode Plot](results/simulation_Frequency Response (Bode Plot).pdf)
 - Flat passband up to ~59 Hz
 - Steep -80 dB/decade roll-off
 
 ### Transient Response (50 Hz Passband)
-[View Transient Response](results/Transient_Analysis_50Hz.pdf)
 - Clean sinusoidal output at 50 Hz
 - Amplitude ~4.2V peak
 
 ### Noise Rejection (1 kHz Stopband)
-[View Noise Rejection](results/4th_Order_LPF_Noise_Rejection_1kHz.pdf)
 - Complete attenuation of 1 kHz signal
 - Output ~0V
 
