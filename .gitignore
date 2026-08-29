@@ -1,0 +1,37 @@
+# Backup files
+*.bak
+*.cache
+*-backup/
+*-cache/
+
+# Temporary simulation files
+*.raw
+*.out
+*.log
+*.cir.out
+
+# KiCad temporary files
+*.kicad_pcb-bak
+*-backups/
+*-cache/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# eSim temporary files
+*.net.bak
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
