@@ -1,0 +1,37 @@
+.title lpf_4th_order_migration
+
+.include lm324.sub
+vv2 vcc gnd  dc 0
+vv3 gnd vee  dc 0
+vv1 in gnd  ac 0 0
+r1 in n1 27k
+r2 n1 n2 27k
+c1 n2 n3 0.1u
+c2 n3 gnd 0.1u
+c3 n1 n4 0.1u
+rbias1 n3 gnd 100meg
+xu1 n2 n4 vcc vee n4 lm324
+rvr1 n4 n5 22k
+r3 n5 n6 27k
+r4 gnd n7 9.1k
+r5 n7 out 15k
+c4 n6 gnd 0.1u
+c5 n5 out 0.1u
+rbias2 n6 gnd 100meg
+xu2 n6 n7 vcc vee out lm324
+rin inp inm 10meg
+rip inp gnd 1000meg
+rim inm gnd 1000meg
+eout eout gnd inp inm 100k
+rser eout out 100
+rvcc vcc gnd 1000meg
+rvee vee gnd 1000meg
+.tran 1e-03 100e-03 0e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
