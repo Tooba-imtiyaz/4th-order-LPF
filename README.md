@@ -21,7 +21,7 @@ This project implements a 4th-order active low-pass filter using the Sallen-Key 
 
 ## 🔬 Simulation Results
 ### Frequency Response (Bode Plot)
-[View Bode Plot](results/simulation_Frequency Response (Bode Plot))
+[View Bode Plot](results/simulation_Frequency Response (Bode Plot).pdf)
 - Flat passband up to ~59 Hz
 - Steep -80 dB/decade roll-off
 
